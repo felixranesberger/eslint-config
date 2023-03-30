@@ -1,0 +1,27 @@
+{
+  "name": "@franesberger/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint config for my projects based on the awesome @antfu/eslint-config preset",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixranesberger/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "antfu"
+  ],
+  "author": "Felix Ranesberger <felix.ranesberger@in2code.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felixranesberger/eslint-config/issues"
+  },
+  "homepage": "https://github.com/felixranesberger/eslint-config#readme",
+  "dependencies": {
+    "@antfu/eslint-config": "^0.38.2"
+  },
+  "peerDependencies": {
+    "eslint": ">= 15"
+  }
+}
