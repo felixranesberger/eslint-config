@@ -22,6 +22,6 @@
     "@antfu/eslint-config": "^0.38.2"
   },
   "peerDependencies": {
-    "eslint": ">= 15"
+    "eslint": "8.37.0"
   }
 }
