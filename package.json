@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/felixranesberger/eslint-config#readme",
   "dependencies": {
-    "@antfu/eslint-config": "^0.38.2"
+    "@antfu/eslint-config": "^0.39.0"
   },
   "peerDependencies": {
     "eslint": ">= 8"
