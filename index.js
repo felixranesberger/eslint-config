@@ -4,7 +4,7 @@ module.exports = {
     extends: '@antfu',
     rules: {
         'no-console': ['warn', {
-            allow: ['info', 'time']
+            allow: ['info', 'time', 'error'],
         }],
         'semi': ['error', 'always'],
         'semi-style': ['error', 'last'],
