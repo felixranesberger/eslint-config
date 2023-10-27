@@ -3,9 +3,6 @@ process.env.ESLINT_TSCONFIG = 'tsconfig.json';
 module.exports = {
     extends: '@antfu',
     rules: {
-        'no-console': ['warn', {
-            allow: ['info', 'time', 'error'],
-        }],
         'semi': ['error', 'always'],
         'semi-style': ['error', 'last'],
         '@typescript-eslint/semi': ['error', 'always'],
