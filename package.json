@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-franesberger",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "ESLint config for my projects based on the awesome @antfu/eslint-config preset",
   "main": "index.js",
   "repository": {
