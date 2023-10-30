@@ -3,6 +3,8 @@ process.env.ESLINT_TSCONFIG = 'tsconfig.json';
 module.exports = {
     extends: '@antfu',
     rules: {
+        // TODO: remove when this pull request is merged
+        // https://github.com/antfu/eslint-config/pull/304/files
         'no-console': ['warn', { allow: ['warn', 'error', 'info'] }],
         'semi': ['error', 'always'],
         'semi-style': ['error', 'last'],
